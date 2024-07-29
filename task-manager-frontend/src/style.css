@@ -1,0 +1,13 @@
+
+/* styles.css */
+.task-item, .task-list, .home-page, form {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
