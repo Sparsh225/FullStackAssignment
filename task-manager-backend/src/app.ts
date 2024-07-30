@@ -2,6 +2,15 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import taskRoutes from './routes/taskRoutes';
 import mongoose from 'mongoose';
+import cors from 'cors'
+
+app.use(cors(
+  {
+    origin:['https://full-stack-assignment-lilac.vercel.app/'],
+    methods:["POST","GET"],
+    credentials:true
+  }
+))
 
 const app = express();
 
