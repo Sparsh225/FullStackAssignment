@@ -6,7 +6,7 @@ import cors from 'cors'
 
 app.use(cors(
   {
-    origin:['https://full-stack-assignment-lilac.vercel.app/'],
+    origin:['https://full-stack-assignment-lilac.vercel.app'],
     methods:["POST","GET"],
     credentials:true
   }
